@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		96BC95292D2DE88C00FBF977 /* OwnerEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BC95272D2DE88C00FBF977 /* OwnerEntity+CoreDataClass.swift */; };
+		96BC952A2D2DE88C00FBF977 /* GitHubEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BC95252D2DE88C00FBF977 /* GitHubEntity+CoreDataClass.swift */; };
+		96BC952B2D2DE88C00FBF977 /* OwnerEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BC95282D2DE88C00FBF977 /* OwnerEntity+CoreDataProperties.swift */; };
+		96BC952C2D2DE88C00FBF977 /* GitHubEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BC95262D2DE88C00FBF977 /* GitHubEntity+CoreDataProperties.swift */; };
+		96BC99482D2E50AA00FBF977 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 96BC99472D2E50AA00FBF977 /* Swinject */; };
+		96BC994D2D2E50BF00FBF977 /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 96BC994C2D2E50BF00FBF977 /* SwinjectAutoregistration */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		96BC91F82D2D522700FBF977 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +36,10 @@
 		96BC91E22D2D522500FBF977 /* vpd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vpd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BC91F72D2D522700FBF977 /* vpdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vpdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BC92012D2D522700FBF977 /* vpdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vpdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BC95252D2DE88C00FBF977 /* GitHubEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GitHubEntity+CoreDataClass.swift"; path = "vpd/Shared/Model/GitHubEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		96BC95262D2DE88C00FBF977 /* GitHubEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GitHubEntity+CoreDataProperties.swift"; path = "vpd/Shared/Model/GitHubEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		96BC95272D2DE88C00FBF977 /* OwnerEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OwnerEntity+CoreDataClass.swift"; path = "vpd/Shared/Model/OwnerEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		96BC95282D2DE88C00FBF977 /* OwnerEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OwnerEntity+CoreDataProperties.swift"; path = "vpd/Shared/Model/OwnerEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BC99482D2E50AA00FBF977 /* Swinject in Frameworks */,
+				96BC994D2D2E50BF00FBF977 /* SwinjectAutoregistration in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +90,10 @@
 		96BC91D92D2D522500FBF977 = {
 			isa = PBXGroup;
 			children = (
+				96BC95252D2DE88C00FBF977 /* GitHubEntity+CoreDataClass.swift */,
+				96BC95262D2DE88C00FBF977 /* GitHubEntity+CoreDataProperties.swift */,
+				96BC95272D2DE88C00FBF977 /* OwnerEntity+CoreDataClass.swift */,
+				96BC95282D2DE88C00FBF977 /* OwnerEntity+CoreDataProperties.swift */,
 				96BC91E42D2D522500FBF977 /* vpd */,
 				96BC91FA2D2D522700FBF977 /* vpdTests */,
 				96BC92042D2D522700FBF977 /* vpdUITests */,
@@ -112,6 +131,8 @@
 			);
 			name = vpd;
 			packageProductDependencies = (
+				96BC99472D2E50AA00FBF977 /* Swinject */,
+				96BC994C2D2E50BF00FBF977 /* SwinjectAutoregistration */,
 			);
 			productName = vpd;
 			productReference = 96BC91E22D2D522500FBF977 /* vpd.app */;
@@ -195,6 +216,10 @@
 			);
 			mainGroup = 96BC91D92D2D522500FBF977;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				96BC99462D2E50AA00FBF977 /* XCRemoteSwiftPackageReference "Swinject" */,
+				96BC994B2D2E50BF00FBF977 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 96BC91E32D2D522500FBF977 /* Products */;
 			projectDirPath = "";
@@ -236,6 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96BC95292D2DE88C00FBF977 /* OwnerEntity+CoreDataClass.swift in Sources */,
+				96BC952A2D2DE88C00FBF977 /* GitHubEntity+CoreDataClass.swift in Sources */,
+				96BC952B2D2DE88C00FBF977 /* OwnerEntity+CoreDataProperties.swift in Sources */,
+				96BC952C2D2DE88C00FBF977 /* GitHubEntity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"vpd/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -403,6 +433,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -424,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"vpd/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -431,6 +463,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -552,6 +585,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96BC99462D2E50AA00FBF977 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+		96BC994B2D2E50BF00FBF977 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/SwinjectAutoregistration.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96BC99472D2E50AA00FBF977 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96BC99462D2E50AA00FBF977 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		96BC994C2D2E50BF00FBF977 /* SwinjectAutoregistration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96BC994B2D2E50BF00FBF977 /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
+			productName = SwinjectAutoregistration;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 96BC91DA2D2D522500FBF977 /* Project object */;
 }

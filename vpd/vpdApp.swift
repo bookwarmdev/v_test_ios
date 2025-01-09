@@ -13,8 +13,11 @@ struct vpdApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            RepositoryListView()
+                .environment(
+                    \.managedObjectContext,
+                     persistenceController.container.viewContext
+                )
         }
     }
 }
